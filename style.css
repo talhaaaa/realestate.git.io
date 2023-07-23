@@ -1,0 +1,290 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar .left{
+    display: flex;
+}
+
+.navbar .left h3{
+    font-size: 21px;
+}
+
+.navbar .left ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}   
+
+.navbar .left ul li{
+    list-style: none;
+}
+
+.navbar .left ul li a{
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size: 18px;
+    color: black;
+}
+
+.navbar .left ul li a:hover{
+    text-decoration: underline;
+}
+
+.navbar .right a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    background-color: #100c08;
+    padding: 8px 20px;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.main .left{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.main .left h1{
+    font-size: 34px;
+    width: 55%;
+    margin-left: 20%;
+}
+
+.main .left p{
+    width: 55%;
+    margin-top: 10px;
+    font-size: 18px;
+    margin-left: 20%;
+}
+
+.main .left a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    background-color: #100c08;
+    padding: 8px 20px;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+.main .left .award-desc{
+    width: 100%;
+    height: 20%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .left .award-desc .one, .two, .three{
+    height: 100%;
+    width: 25%;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main .left .award-desc .one span{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.main .left .award-desc .two span{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.main .left .award-desc .three span{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.main .left .award-desc .one p{
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.main .left .award-desc .two p{
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.main .left .award-desc .three p{
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.main .right{
+    width: 40%;
+    height: 100%;
+    background-image: url('images/one.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.residence{
+    width: 100%;
+    height: 120vh;
+}
+
+.residence .upper{
+    width: 100%;
+    height: 40%;
+    background-color: #f8f4ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.residence .upper .card{
+    height: 55%;
+    width: 80%;
+    position: relative;
+    bottom: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fefefa;
+    box-shadow: 4px 4px 10px #414a4c;
+    border-radius: 5px;
+}
+
+.residence .upper .card .top{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.residence .upper .card .top h2{
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.residence .upper .card .bottom{
+    width: 100%;
+    height: 60%;
+}
+
+.residence .upper .card .bottom .cont{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.residence .upper .card .bottom input{
+    width: 25%;
+    height: 35%;
+    border-radius: 5px;
+    border: 1px solid #A8A8A8;
+    margin: 8px;
+    background-color: #fffaf0;
+    outline: 0;
+}
+
+.residence .upper .card .bottom input[type="submit"]{
+    border-radius: 0px;
+    background-color: #100c08;
+    color: white;
+    width: 10%;
+    height: 30%;
+}
+
+.residence .lower{
+    width: 100%;
+    height: 60%;
+    background-color: #1a1110;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.residence .lower .main-card{
+    padding: 20px 0px;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.residence .lower .main-card h2{
+    font-size: 32px;
+    color: white;
+}
+
+.residence .lower .main-card .cards{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.residence .lower .main-card .cards .card{
+    width: 28%;
+    height: 90%;
+    background-color: pink;
+    margin: 15px;
+}
+
+.residence .lower .main-card .cards .card-one{
+    background-image: url('images/house-one.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.residence .lower .main-card .cards .card-two{
+    background-image: url('images/house-two.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.residence .lower .main-card .cards .card-three{
+    background-image: url('images/house-three.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p a{
+    text-decoration: none;
+}
